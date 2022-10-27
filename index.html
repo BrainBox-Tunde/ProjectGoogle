@@ -11,15 +11,39 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#" class="header-link">Gmail</a></li>
-                <li><a href="#" class="header-link">Images</a></li>
-                <li><a href="#"><i id="dropdown-menu" class="material-icons">apps</i></a></li>
-                <li><a href="#"><img src="/Brainy.jpg" alt="Profile Pic" id="profile-pic"></a></li>
-               
-            </ul>
+            <a href="#" class="menu-item">Gmail</a>
+            <a href="#" class="menu-item">Images</a>
+            <div id="dropdown-wrapper">
+                <i id="dropdown-menu" class="material-icons">apps</i>
+                <div id="app-card">
+                    <div class="app-item">
+                        <img src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Google Searc" id="google-search">
+                        <p>Search</p> 
+                    </div>
+                    <div class="app-item">
+                        <img src="http://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png" alt="Maps" id="maps">
+                        <p>Maps</p> 
+                    </div>
+                    <div class="app-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png" alt="Drive" id="drive">
+                        <p>Drive</p> 
+                    </div>
+                    <div class="app-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/1024px-Google_Calendar_icon_%282020%29.svg.png" alt="Calendar" id="calendar">
+                        <p>Calendar</p> 
+                    </div>
+                    <div class="app-item">
+                        <img src="https://blogs.acu.edu/innovation_foundry/files/2017/06/google_photos1600.png" alt="Photos" id="photos">
+                        <p>Photos</p> 
+                    </div>
+                    <div class="app-item">
+                        <img src="https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf3040fce0f748.png" alt="Keep" id="keep">
+                        <p>Keep</p>
+                    </div>
+                </div>
+            </div>
+            <img src="/Brainy.jpg" alt="Profile Pic" id="profile-pic"></a>
         </nav>
-        <div class="clear-float"></div>
     </header>
     
     <main>
@@ -36,37 +60,7 @@
         </form>
     </main>
 
-    <div id="app-card">
-        <div>
-            <img src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Google Searc" id="google-search">
-            <p>Google Search</p> 
-        </div>
-        <div>
-            <img src="http://pluspng.com/img-png/google-maps-png-google-maps-icon-
-            1600.png" alt="Maps" id="maps">
-            <p>Maps</p> 
-        </div>
-        <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_D
-            rive_logo.png" alt="Drive" id="drive">
-            <p>Drive</p> 
-        </div>
-        <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Google_C
-            alendar_icon.svg" alt="Calendar" id="calendar">
-            <p>Calendar</p> 
-        </div>
-        <div>
-            <img src="https://blogs.acu.edu/innovation_foundry/files/2017/06/google_p
-            hotos1600.png" alt="Photos" id="photos">
-            <p>Photos</p> 
-        </div>
-        <div>
-            <img src="https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf
-            3040fce0f748.png" alt="Keep" id="keep">
-            <p>Keep</p>
-        </div>
-    </div>
+    
     
 </body>
 </html>
